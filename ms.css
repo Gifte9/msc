@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(24, 14, 218);
+    padding-bottom: 20px;
+    
+    
+    }
+    header{
+    background-color:white;
+    display:inline-block;
+    position:relative;
+    width:1150px;
+    padding:50px 100px;
+    
+    
+    }
+    
+    .logo{
+    float:left;
+    }
+    .first-design2{
+    width:100px;
+    height:80px;
+    box-shadow:10px 10px 0 rgb(29, 29, 31);
+    }
+
+    .name-of-brand{
+        font-size: 50px;
+        color:black;
+        font-weight: bold;
+        box-shadow:0px 4px 0 rgb(60, 43, 19)
+        text-decoration:none;
+        font-weight:600;   
+    }
+
+    nav{
+    float:right;
+    }
+    nav ul li{
+    display:inline-block;
+    padding :15px 25px;
+    }
+    nav ul li a{
+    text-decoration: none;
+    display:inline-block;
+    color:black;
+    font-weight:600;
+    }
+    .toggle-btn{
+    width:35px;
+    position:absolute;
+    right:80px;
+    top:40px;
+    display: none;
+    }
+    
+    .toggle-btn span{
+    display:inline-block;
+    width: 30px;
+    height:2px;
+    background-color:black;
+    float:left;
+    margin-bottom:8px;  
+    }
+    
+    @media (max-width: 1500px ){
+    .toggle-btn{
+    display:block;
+    }
+    
+    nav{
+    display:none;
+    width:100%
+    border-top:1px solid #000;
+    padding-top: 20px; 
+    margin-top: 30px;
+    }
+    nav ul li{
+    padding: 15px 0px;
+    width:100%
+    }
+    
+    
+    nav.show{
+    display:block;
+    }
+    }
+    
+    .first-design{
+    width:220px;
+    height:250px;
+    
+    }
+    .whatsapp-no{
+    height:30px;
+    }
+    section {
+        font-size:15px;
+        color:black
+        font-weight:500;
+        margin-top: 3px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
